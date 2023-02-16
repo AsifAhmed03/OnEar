@@ -15,6 +15,8 @@ body {
     margin: 0 15vw;
 }
 
+/* Navigation Section  */
+
 header {
     color: white;
     display: flex;
@@ -82,6 +84,8 @@ header {
 .nav_headphone:hover {
     rotate: -8deg;
 }
+
+/* OnEar Section  */
 
 .main {
     display: flex;
@@ -158,6 +162,7 @@ img[alt="shoppingBag"] {
     margin-left: 12px;
 }
 
+/* Brand Logo Section  */
 
 .brand_logo {
     display: grid;
@@ -171,6 +176,8 @@ img[alt="shoppingBag"] {
 .brand_logo a:hover {
     margin-top: 10px;
 }
+
+/* Specs Section  */
 
 .Specs {
     margin-top: 60px;
@@ -234,6 +241,7 @@ img[alt="shoppingBag"] {
     rotate: 360deg;
 }
 
+/* Case Section  */
 
 img[alt="group"] {
     position: relative;
@@ -291,6 +299,8 @@ img[alt="caseImage"]:hover {
     top: 10px;
 }
 
+/* Buynow Section  */
+
 .buynow {
     width: 100%;
     height: 100%;
@@ -332,7 +342,6 @@ img[alt="caseImage"]:hover {
 }
 
 img[alt="buyNowSectionImage"] {
-    /* border: 1px solid red; */
     position: relative;
     left: 450px;
     top: 20px;
@@ -366,6 +375,8 @@ img[alt="buyNowSectionImage"]:hover {
     background-color: #080808;
     color: white;
 }
+
+/* Product Buy Section  */
 
 img[alt="productLogo"] {
     width: 45%;
@@ -434,8 +445,6 @@ img[alt="productLogo"] {
     background-color: black;
     border-radius: 6px;
 }
-
-
 
 /* Footer Section */
 
