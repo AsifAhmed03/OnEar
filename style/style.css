@@ -25,7 +25,7 @@ header {
 .nav_bar {
     margin: 50px auto;
     font-size: 20px;
-    font-weight: 700;   
+    font-weight: 700;
 }
 
 .nav_bar ul {
@@ -43,7 +43,7 @@ header {
 }
 
 .nav_bar ul a:hover {
-    margin-top: 10px;
+    font-size: 21px;
     color: #747480;
 }
 
@@ -78,11 +78,34 @@ header {
     margin-left: -100%;
     margin-top: -80%;
     width: 90%;
-    transition: 2s;
+    /* transition: 2s; */
+    animation: move 15s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
 }
 
 .nav_headphone:hover {
-    rotate: -8deg;
+    animation: none;
 }
 
 /* OnEar Section  */
@@ -259,10 +282,35 @@ img[alt="caseImage"] {
     width: 20vw;
     transition: 2s;
     cursor: pointer;
+    animation: direction 10s infinite;
 }
 
+
+@keyframes direction {
+    0% {
+        transform: rotate(-20deg);
+    }
+
+    25% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(-20deg);
+    }
+}
+
+
 img[alt="caseImage"]:hover {
-    rotate: 20deg;
+    animation: none;
 }
 
 .case_content span {
@@ -345,13 +393,16 @@ img[alt="buyNowSectionImage"] {
     position: relative;
     left: 450px;
     top: 20px;
-    width: 45%;  
+    width: 45%;
     cursor: pointer;
-    transition: 5s;
+    transition: 1s;
 }
 
 img[alt="buyNowSectionImage"]:hover {
-    rotate: 360deg;
+    /* rotate: 30deg; */
+    /* margin-left: 150px; */
+    transform: scaleY(-1);
+    transform: scaleY(-1);
 }
 
 .buynow_right {
@@ -382,7 +433,7 @@ img[alt="productLogo"] {
     width: 45%;
     margin-top: 140px;
     margin-bottom: 80px;
-    margin-left: 120px;   
+    margin-left: 120px;
 }
 
 .product_main_section {
@@ -390,14 +441,14 @@ img[alt="productLogo"] {
     margin-bottom: 140px;
 }
 
-.product_show { 
+.product_show {
     grid-template-columns: 1fr 1fr;
     display: grid;
     grid-gap: 50px;
     grid-column-gap: 0px;
     margin: auto;
     position: relative;
-    
+
 }
 
 .prod_img {
@@ -555,7 +606,7 @@ ul li:first-child {
 }
 
 .footer_icons:hover {
-    width: 13%;
+    width: 8%;
     box-shadow: -1px 1px 3px 1px whitesmoke;
 }
 
